@@ -1,0 +1,3 @@
+Ekaterina,1024472541, /help
+Ekaterina,1024472541, /time
+Ekaterina,1024472541, /hi

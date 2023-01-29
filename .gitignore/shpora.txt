@@ -1,20 +1,3 @@
-
-from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from botCommand import *
-    
-
-
-app = ApplicationBuilder().token("6172619513:AAFwjWeE7UA4TzOf015soCTrtTZexQvaczI").build()
-print('start')
-
-app.add_handler(CommandHandler("hi", hi))
-app.add_handler(CommandHandler('help', help))
-app.add_handler(CommandHandler('time', time))
-
-app.run_polling()
-
-# %%%%%%%%%%%%%%%%%%%%%%%%
 # from telegram import Update
 # from telegram.ext import Updater, CommandHandler, CallbackContext
 # import datetime
